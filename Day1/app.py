@@ -1,5 +1,5 @@
 def read_in():
-    with open("input_prod.txt", "r") as in_file:
+    with open("./Day1/input_prod.txt", "r") as in_file:
         return in_file.readlines()
 
 
