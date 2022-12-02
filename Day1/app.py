@@ -1,5 +1,5 @@
 class ElfClass:
-    def __init__(self, filename):
+    def __init__(self, filename: str):
         self.file_data = None
         self.filename = filename
         self.totals = list()
