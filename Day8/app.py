@@ -1,6 +1,3 @@
-from itertools import takewhile
-
-
 class Forest:
     def __init__(self, filename: str):
         self.file_data = list()
